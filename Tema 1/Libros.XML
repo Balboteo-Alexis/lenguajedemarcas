@@ -1,0 +1,27 @@
+<Libros>
+
+
+<Libro1>
+<Titulo> El nombree del viento </Titulo>
+<Autor> Patric Rothfus</Autor>
+<año>2016</año>
+<genero>Fantasia</genero> 
+</Libro1>
+
+
+<Libro2>
+<Titulo> Harry potter la piedra. </Titulo>
+<Autor> Patric Rothfus</Autor>
+<año>2004</año>
+<genero>Epico</genero> 
+</Libro2>
+
+
+<Libro3>
+<Titulo> El bosque de cristal </Titulo>
+<Autor> Neruda Barja</Autor>
+<año>2013</año>
+<genero>Tragedia</genero> 
+</Libro3>
+
+</Libros>
