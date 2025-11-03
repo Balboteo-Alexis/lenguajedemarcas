@@ -2,27 +2,42 @@
 <html>
 <head>
     <title>La historia de Rayo Mcqueen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
     <meta http-equiv="refresh" content="10">
     <meta name=“description” content=“Historia de un coche de carreras llamado Rayo” />
     <meta name=“keywords” content=“código, HTML, etiqueta,historia, rayo,mcqueen, web” />
     <meta name=“author” content=“Alexis Balboteo” />
+    <link rel="icon" type="image/png" href="favicon-256x256.png">
+
 <style>
 
-
+    
     div {
 
         font-family:'Courier New', Courier, monospace ;
-        border: 2px solid yellow; 
+        margin-top: 70px;
+        margin-bottom: 70px;
+        margin-left: 150px;
+        margin-right: 150px;
+        padding: 40px;
+        background-color: pink;
+        border: 7px solid purple;
+        border-radius: 40px ;
+                
     }
 
 
     .capitulo{
-        font-size: 20px;
+
+        font-size: 24px;
+        font-family: "Playfair Display", serif;
 
     }
     
     .portada{
-
+        
         text-align: center;
     }
 
@@ -35,13 +50,21 @@
 
     }
 
+    .indice{
+
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+
+    }
 
 
     img {
       
         margin: 5px;
-        width: 600px;
-        height: 200px;
+        width: 700px;
+        height: 400px
+
 
     }
      
@@ -51,88 +74,179 @@
         margin-left: 30px;
         margin-right: 30px;
         font-size: 25px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-decoration: underline;
 
     }
 
+    h3 {
+
+        font-size: 30px;
+    }
+    .enlace{
+        text-align: right;
+        font-family:'Courier New', Courier, monospace ;
+        background-color: pink;
+        border: 0px solid purple;
+        border-radius: 0px ;
+        
+    }
 
 
 </style>
 
 </head>
-<body style=" background-color: rgb(151, 24, 24);">
+<body style=" background-color: rgb(241, 218, 222);">
 
-<div class="portada">
 
-    <h1 style="font-size: 60px;">La aventura de Rayo Mcqueen</h1>
+
+<div class="portada" id="p0">
+
+    <h1 style="font-size: 50px;"><u>La aventura de Rayo Mcqueen</u><br>  &#127941 &#127942 &#127942 &#127941</h1>
 
     <img class="portadaimg" src="mcqueen.jpg">
 
-    <h2>Autor: Alexis Balboteo</h2>
+    <h3>Autor: Alexis Balboteo</h3>
 
-    <h2>Rayo a la interperie se enfrenta a grandes desafios.</h2>
+    <h3>Rayo a la interperie se enfrenta a grandes desafios.</h3>
+
+</div>
+
+<div class=" indice" style="margin-left: 500px; margin-right: 500px;">
+
+   <h1 style="font-size: 35px;">&#9889 INDICE: &#9889 <br>  </h1> 
+    <a href= #p1> INTRODUCIÓN   </a> <br><br>
+    <a href= #p2> NUDO  </a>         <br><br>
+    <a href= #p3> DESENLACE   </a>   <br><br>
+
 
 </div>
 
 
 <div class="capitulo">         <!-- esto es la intro-->
 
+    <h2 style="text-align: center;" id="p1"> 
+        &#128664&#128664&#128664&#128664 INTRODUCIÓN &#128664&#128664&#128664&#128664<br><br>
+    </h2>
+
+
 <p>
     Rayo McQueen estaba disfrutando de un tranquilo día en Radiador Springs,
-    el pequeño pueblo que tanto había aprendido a amar. Después de tantas carreras, 
-    a veces necesitaba alejarse de la pista y disfrutar de la vida a un ritmo más pausado. 
+    el pequeño pueblo que tanto había aprendido a amar.<br>
+    Después de tantas carreras, a veces necesitaba alejarse de la pista y disfrutar de la vida a un ritmo más pausado. <br><br>
     Mate estaba practicando sus maniobras de rescate y reparaciones improvisadas, mientras 
-    Sally preparaba el restaurante para los turistas que llegaban al pueblo.
+    <img  style="width: 600px; height:300px; float:right;" src="sally.jpg">
+    Sally preparaba el restaurante para los turistas que llegaban al pueblo.<br><br>
     Pero Rayo sentía que necesitaba algo más: una nueva aventura, algo que pusiera a 
     prueba no solo su velocidad, sino también su ingenio y reflejos. Fue entonces cuando 
     escuchó rumores sobre una pista secreta en el desierto, escondida entre cañones y dunas 
     de arena. La pista estaba cubierta de curvas imposibles, remolinos de arena y caminos 
-    que cambiaban con el viento. Nadie en Radiador Springs se atrevía a recorrerla… excepto Rayo.
-
+    que cambiaban con el viento. Nadie en Radiador Springs se atrevía a recorrerla… excepto Rayo.<br><br>
+    
     Al día siguiente, cargó combustible, revisó sus llantas y salió hacia el desierto con 
     su típico espíritu competitivo. Mientras conducía bajo el sol abrasador, el aire se 
-    llenaba de polvo dorado y el horizonte parecía infinito. Rayo sentía que cada kilómetro 
+    llenaba de polvo dorado y el horizonte parecía infinito. <br>Rayo sentía que cada kilómetro 
     lo acercaba a algo más que una carrera: una prueba de su valentía. Incluso Mate lo 
     seguía de cerca, grabando cada momento con su cámara para luego hacer un “documental” 
-    improvisado.
+    improvisado.<br>
+    
 </p>
 
 
 </div>
 
 <div class="capitulo">         <!-- esto es el nudo-->
-<img style="float: right;"src="rayofin.jpg";>
+
+     
+    <h2 style="text-align: center;" id="p2" > 
+       &#128293&#128293&#128293&#128293 NUDO &#128293&#128293&#128293&#128293<br><br>
+    </h2>
+
 <p>
 Mientras Rayo McQueen recorría la pista, notó que algo extraño sucedía: un remolino de arena bloqueaba el camino y no podía girar lo suficiente para esquivarlo. 
 Al principio pensó que sería fácil, como cualquier curva que había enfrentado antes, pero la arena comenzó a levantarse en torbellinos enormes, girando con fuerza
- a su alrededor. Cada segundo que pasaba, la visibilidad disminuía, y el rugido del viento mezclado con el crujido de la arena lo envolvía por completo. 
- Rayo sintió que la pista estaba viva, como si la arena misma quisiera detenerlo.
-Intentó acelerar y frenar, pero la arena lo arrastraba hacia un cañón cercano. Sus llantas patinaban, levantando nubes de polvo que lo cegaban.
- Cada movimiento debía ser calculado al milímetro; un giro demasiado brusco podría hacerlo caer, y un frenazo equivocado lo lanzaría directo al abismo. 
- Sintió el corazón latiéndole en el pecho y un cosquilleo de miedo recorriendo su chasis, algo que rara vez experimentaba. Recordó que en carreras pasadas 
- siempre había confiado solo en la velocidad, pero esta vez no bastaría.
+a su alrededor. Cada segundo que pasaba, la visibilidad disminuía, y el rugido del viento mezclado con el crujido de la arena lo envolvía por completo. 
+Rayo sintió que la pista estaba viva, como si la arena misma quisiera detenerlo.<br><br>
+<img style="float: right;"src="rayofin.jpg";>
+Intentó acelerar y frenar, pero la arena lo arrastraba hacia un cañón cercano. Sus llantas patinaban, levantando nubes de polvo que lo cegaban.<br><br>
+Cada movimiento debía ser calculado al milímetro; un giro demasiado brusco podría hacerlo caer, y un frenazo equivocado lo lanzaría directo al abismo. <br>
+Sintió el corazón latiéndole en el pecho y un cosquilleo de miedo recorriendo su chasis, algo que rara vez experimentaba. Recordó que en carreras pasadas 
+siempre había confiado solo en la velocidad, pero esta vez no bastaría.<br>
+
 A punto de perder el control, recordó los consejos de Mate: “No siempre es la velocidad, sino la técnica y la calma lo que salva”. La voz de su amigo resonó 
 en su mente como un faro en medio de la tormenta de arena. Rayo respiró hondo, tratando de calmar los nervios y enfocarse en cada detalle: la dirección del viento, 
-la textura de la arena, la inclinación de las dunas. Cada giro debía ser suave pero firme, cada acelerón medido al límite de sus ruedas.
+la textura de la arena, la inclinación de las dunas. Cada giro debía ser suave pero firme, cada acelerón medido al límite de sus ruedas.<br>
 Con paciencia, empezó a usar la arena a su favor. Aprovechó los pequeños surcos que se formaban en la pista, deslizándose con cuidado y dejando que la fuerza del remolino 
-lo ayudara a tomar impulso en lugar de luchar contra él. Cada maniobra era un delicado baile entre control y riesgo; podía sentir cómo cada fibra de su chasis vibraba con 
+lo ayudara a tomar impulso en lugar de luchar contra él.<br><br> Cada maniobra era un delicado baile entre control y riesgo; podía sentir cómo cada fibra de su chasis vibraba con 
 el esfuerzo. La adrenalina mezclada con concentración lo hizo sentir más vivo que nunca, consciente de que cada movimiento podía marcar la diferencia entre un desastre y 
 la victoria.Finalmente, tras varios segundos que parecieron eternos, Rayo McQueen encontró el ángulo perfecto. Con un giro calculado y un ligero acelerón, logró deslizarse entre los 
-obstáculos, usando la misma arena que lo había amenazado como un trampolín para escapar del remolino. La tensión desapareció en cuanto recuperó el control completo y 
+obstáculos, usando la misma arena que lo había amenazado como un trampolín para escapar del remolino. <br>La tensión desapareció en cuanto recuperó el control completo y 
 respiró aliviado.
 </p>
 </div>
 
 <div class="capitulo">         <!-- esto es el desenlace-->
 
+     <h2 style="text-align: center;" id="p3"> 
+       &#127937&#127937&#127937 &#127941 &#127941 DESENLACE &#127941 &#127941 &#127937&#127937&#127937<br><br>
+    </h2>
+
 <p>
-    Con un último giro perfecto, Rayo McQueen salió del remolino de arena y cruzó la 
-    meta de la pista improvisada, sintiéndose más confiado y orgulloso que nunca. 
-    No solo había ganado una carrera, sino que también había aprendido que la paciencia y
-    la estrategia pueden ser tan importantes como la velocidad. Al volver a Radiador 
-    Springs, Mate lo esperaba con una gran sonrisa y Rayo supo que, con amigos y buen 
-    juicio, siempre podía superar cualquier desafío.
+    Cuando los aplausos y el rugir de los motores se desvanecieron en la distancia, Rayo McQueen se detuvo por un momento a contemplar el horizonte. 
+    El sol del desierto teñía el cielo de un rojo anaranjado, reflejándose sobre su brillante carrocería. 
+    Respiró profundo —si es que los coches pudieran hacerlo— y sonrió. Había sentido la adrenalina, el polvo, la presión y la duda… pero al final,
+    había entendido algo mucho más valioso que cualquier trofeo. No se trataba solo de correr rápido, sino de saber cuándo acelerar y por qué hacerlo.
+    <br><br>
+    <img style="float: right; height: 400px;width: 500px;" src="cachao.jpg"> 
+    De regreso en Radiador Springs, todo el pueblo estaba reunido para recibirlo. Luigi colgaba banderines tricolores sobre el cartel de bienvenida, 
+    Guido hacía sonar su bocina a modo de fanfarria, y Sargento había organizado una formación impecable con sus conos decorativos. 
+    Sally, con una expresión de orgullo sincero, se acercó y le dio un suave roce en el parachoques. “Sabía que lo lograrías, Rayo”, dijo con voz cálida. 
+    McQueen respondió con esa sonrisa suya, mezcla de picardía y humildad recién aprendida.
+    <br><br>
+    Mate, por supuesto, no podía quedarse atrás. Llegó derrapando, cubierto de polvo hasta los faros, con una risa contagiosa. 
+    “¡Lo viste, Rayo! ¡Saliste de ese remolino como si fueras un relámpago de verdad! Aunque… me dio miedo que salieras volando y acabaras en la luna.”
+    Rayo soltó una carcajada. “No sería la primera vez que me meto en un lío por querer ir demasiado rápido, amigo.”
+    <br><br>
+    
+    Y justo cuando todos creyeron que la jornada había terminado, una sombra se proyectó sobre la calle principal. 
+    Un rugido metálico, grave y poderoso, resonó desde la colina. Todos levantaron la mirada: una silueta desconocida descendía a toda velocidad,
+    dejando una estela de polvo dorado. Era un coche con pintura brillante, un diseño nunca visto, mitad clásico, mitad futurista. 
+    Frenó frente al grupo con elegancia y dijo con una voz suave pero firme: —Vaya carrera, McQueen. He oído que aún hay quien puede darme pelea.
+    <br><br>
+    El silencio se hizo por un instante. Rayo lo observó con intriga, y una chispa de emoción iluminó sus faros.
+    —¿Y tú quién eres? —preguntó.<br>
+    El extraño sonrió.<br>
+    —Digamos que… soy el resultado de todos los que te han querido ganar.<br>
+
+    Mate dio un salto. “¡Oh, oh! ¡Eso suena a desafío!”<br>
+
+    Rayo giró su mirada hacia Sally, luego hacia el horizonte donde el sol ya empezaba a ocultarse. Sonrió con calma, sin la prisa de otros tiempos.
+    —Entonces tendrás que esperar a mañana. Hoy… tengo una carrera más importante.<br>
+
+    —¿Más importante? —replicó el recién llegado.<br>
+
+    —Sí —dijo Rayo, mirando a sus amigos—. La carrera para disfrutar de lo que ya he ganado.<br>
+
+    El misterioso coche soltó una risa corta y asintió.<br>
+    —Sabia respuesta, McQueen. Pero recuerda… el camino nunca termina.<br>
+
+    Y con un último rugido del motor, desapareció entre la arena del desierto, dejando tras de sí un brillo dorado que se confundía con las últimas luces del atardecer.<br>
+
+    Rayo quedó mirando hacia la distancia, pensativo, hasta que Mate rompió el silencio con su típica ocurrencia:<br>
+    —Oye, Rayo… ¿crees que ese tipo usará aceite premium o del barato?<br>
+
+    
 </p>
 
+    <p style="text-align: center;">
+
+        <img src="mate.jpg";>
+
+    </p>
+
+    <div class="enlace" ><a  href= #p0 > Volver a portada   </a>   </div>
+
+    
 </div>
 
 
